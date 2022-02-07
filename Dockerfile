@@ -1,6 +1,6 @@
 FROM ubuntu
 
-ENV path /dev
+ENV path /usr
 
 WORKDIR ${path}
 
