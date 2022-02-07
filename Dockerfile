@@ -6,6 +6,6 @@ WORKDIR ${path}
 
 COPY . ${path}
 
-RUN apt-get update -y && apt-get install figlet && figlet DANIEL IS A BOSS BITCH !
+RUN apt-get update -y && apt-get install figlet
 
-CMD echo figlet Welcome dans le container !
+CMD figlet Welcome dans le container !
