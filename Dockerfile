@@ -4,5 +4,5 @@ ENV path /usr
 
 WORKDIR ${path}
 
-COPY . $(path)
+COPY . ${path}
 
