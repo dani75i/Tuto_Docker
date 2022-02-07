@@ -1,11 +1,9 @@
-FROM ubuntu
+FROM python:3
 
-ENV path /usr
+ENV path /home
 
 WORKDIR ${path}
 
 COPY . ${path}
 
-RUN apt-get update -y && apt-get install figlet
-
-CMD figlet Welcome dans le container !
+CMD python say_hello.py
