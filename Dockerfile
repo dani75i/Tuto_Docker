@@ -1,6 +1,7 @@
 FROM python:3
 
-ENV path /home
+ENV path /home 
+ENV PYTHONUNBUFFERED=1
 
 WORKDIR ${path}
 
