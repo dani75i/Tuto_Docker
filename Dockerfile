@@ -6,4 +6,6 @@ WORKDIR ${path}
 
 COPY . ${path}
 
+RUN pip install django
+
 CMD python say_hello.py
