@@ -6,7 +6,9 @@ WORKDIR ${path}
 
 COPY . ${path}
 
-RUN pip install django && cd mysite
+RUN pip install django 
+
+CMD cd mysite
 
 EXPOSE 8000
 
