@@ -9,7 +9,7 @@ COPY . ${path}
 
 RUN pip install django 
 
-CMD cd mysite && python manage.py runserver
+CMD cd mysite && python manage.py runserver 0.0.0.0:8000
 
 EXPOSE 8000
 
