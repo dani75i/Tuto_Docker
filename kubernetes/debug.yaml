@@ -7,5 +7,5 @@ spec:
   - name: debug
     image: alpine
     command:
-    - "sleep"
-    - "10000"
+    - "echo"
+    - "WESH DANIEL"
