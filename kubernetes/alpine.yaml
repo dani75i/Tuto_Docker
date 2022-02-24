@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: alpinecontainer
-    image: alpine
+    image: alpine:3.14
