@@ -6,5 +6,5 @@ spec:
   containers:
   - name: alpinecontainer
     image: alpine:3.14
-    command: ["printenv"]
-    args: ["HOME", "LANGUAGE"]
+    command: ["/bin/bash"]
+    args: ["ls -lt; pwd; printenv"]
