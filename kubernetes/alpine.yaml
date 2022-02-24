@@ -6,4 +6,7 @@ spec:
   containers:
   - name: alpinecontainer
     image: alpine:3.14
-    command: ["echo", "SISI DANIEL", "sleep", "30"]
+    command: 
+      - echo SISI DANIEL LE DOMBAS
+      - sleep 5
+      - ls -lt
