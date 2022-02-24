@@ -6,6 +6,5 @@ spec:
   containers:
   - name: alpinecontainer
     image: alpine:3.14
-    command: 
-      - sleep 
-      - 5
+    command: ["printenv"]
+    args: ["HOME", LANGUAGE]
