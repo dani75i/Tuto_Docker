@@ -7,4 +7,4 @@ spec:
   - name: alpinecontainer
     image: alpine:3.14
     command: ["printenv"]
-    args: ["HOME", LANGUAGE]
+    args: ["HOME", "LANGUAGE"]
