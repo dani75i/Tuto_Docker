@@ -1,7 +1,12 @@
 #### VOIR LES LOGS D UN POD
 kubectl logs pod_name
 
-
 #### VOIR LA DECRIPTION D UN POD
 kubectl describe po pod_name
 
+#### DELETE UN POD
+kubectl delete po pod_name
+
+
+#### CREATE UN POD, SERVICE, DEPLOYMENT, ETC
+kubectl create -f pod.yaml
