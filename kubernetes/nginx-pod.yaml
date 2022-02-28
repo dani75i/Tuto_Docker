@@ -8,3 +8,5 @@ spec:
   containers:
   - name: www
     image: nginx:1.12.2
+    ports:
+    - containerPort: 80

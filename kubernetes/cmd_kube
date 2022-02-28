@@ -1,0 +1,7 @@
+#### VOIR LES LOGS D UN POD
+kubectl logs pod_name
+
+
+#### VOIR LA DECRIPTION D UN POD
+kubectl describe po pod_name
+
