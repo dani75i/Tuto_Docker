@@ -8,3 +8,4 @@ spec:
   containers:
   - name: djangocontainer
     image: djangoimage
+    command: ["python", "manage.py", "runserver"]
