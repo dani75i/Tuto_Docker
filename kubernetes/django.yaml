@@ -8,4 +8,5 @@ spec:
   containers:
   - name: djangocontainer
     image: djangoimage
+    imagePullPolicy: Never
     command: ["python", "manage.py", "runserver"]
